@@ -55,11 +55,11 @@ body {
 
 .nav-icons {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .nav-icons i {
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     color: #E8EBE4;
 }
@@ -69,7 +69,8 @@ body {
 }
 
 .new-chat {
-    width: 60%;
+    
+    width: 75%;
     padding: 15px;
     background-color: #A491D2;
     border: none;
@@ -87,7 +88,7 @@ body {
 .contact {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .contact-img {
