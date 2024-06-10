@@ -26,29 +26,30 @@ body {
  
 
 
-.user-info {
+.usuario {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    justify-content:center;
+    margin-bottom: 40px;
 }
 
-.user-info img {
+.usuario img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
 
-.user-text {
+.usuario-texto {
     flex-grow: 1;
     margin-left: 10px;
 }
 
-.user-name {
+.usuario-nombre {
+    display: flex;
     font-weight: bold;
 }
 
-.user-status {
+.usuario-estado {
     color: gray;
 }
 
@@ -68,9 +69,9 @@ body {
 }
 
 .new-chat {
-    width: 100%;
-    padding: 10px;
-    background-color: #c29de0;
+    width: 60%;
+    padding: 15px;
+    background-color: #A491D2;
     border: none;
     color: white;
     font-size: 1em;
