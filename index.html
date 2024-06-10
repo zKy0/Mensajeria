@@ -1,106 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/assets/style.css">
-    <script src="https://kit.fontawesome.com/aaae1f604b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-        <div class="container">
-            <div class="sidebar">
-                <div class="user-info">
-                    <img src="/assets/img/maria.jpg" alt="User Image">
-                    <div class="user-text">
-                        <span class="user-name">Maria</span>
-                        <span class="user-status">Activa ahora</span>
-                    </div>
-                    <div class="nav-icons">
-                        <i class="fas fa-comment-alt"></i>
-                        <i class="fas fa-bars"></i>
-                    </div>
-                    
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/assets/style.css"/>
 
-                <button class="button">Nuevo Chat</button>
-                <ul class="chat-list">
-                    <li class="chat-item">
-                        <img src="/assets/img/Juanita.jpg" alt="Juanita">
-                        <div>
-                            <div class="name">Juanita</div>
-                            <div class="status">At vero eos et accusa</div>
-                        </div>
-                    </li>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-                    <li class="chat-item">
-                        <img src="/assets/img/Alberto.jpg" alt="Alberto">
-                        <div>
-                            <div class="name">Alberto</div>
-                            <div class="status">blanditiis praesentium</div>
-                        </div>
-                    </li>
-                    
-                    <li class="chat-item">
-                        <img src="/assets/img/Ignacio.jpg" alt="Ignacio">
-                        <div>
-                            <div class="name">Ignacio</div>
-                            <div class="status">officiis debitis aut</div>
-                        </div>
-                    </li>
 
-                    <li class="chat-item">
-                        <img src="/assets/img/Cristian.jpg" alt="Juanita">
-                        <div>
-                            <div class="name">Cristian</div>
-                            <div class="status">Nam libero tempore</div>
-                        </div>
-                    </li>
-
-                    <li class="chat-item">
-                        <img src="/assets/img/Maria Jose.jpg" alt="Juanita">
-                        <div>
-                            <div class="name">Maria Jose</div>
-                            <div class="status">impedit quo minus id</div>
-                        </div>
-                    </li>
-
-                    <li class="chat-item">
-                        <img src="/assets/img/Gonzalo.jpg" alt="Gonzalo">
-                        <div>
-                            <div class="name">Gonzalo</div>
-                            <div class="status">Nam libero tempore</div>
-                        </div>
-                    </li>
-
-                    <li class="chat-item">
-                        <img src="/assets/img/Juan Pablo.jpg" alt="Juan Pablo">
-                        <div>
-                            <div class="name">Juan Pablo</div>
-                            <div class="status">Nam libero tempore</div>
-                        </div>
-                    </li>
-
-                    <li class="chat-item">
-                        <img src="/assets/img/Magdalena.jpg" alt="Magdalena">
-                        <div>
-                            <div class="name">Magdalena</div>
-                            <div class="status">Nam libero tempore</div>
-                        </div>
-                    </li>
-
-                               
-                </ul>
-            </div>
-            <main class="main-content">
-                <div class="icon">
-                    <img src="/assets/img/hand.png" alt="Networking Icon">
+    <script
+      src="https://kit.fontawesome.com/aaae1f604b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="user-info">
+                <img src="/assets/img/maria.jpg" alt="User Image">
+                <div class="user-text">
+                    <span class="user-name">Maria</span>
+                    <span class="user-status">Activa ahora</span>
                 </div>
-                <h1>Comienza el Networking</h1>
-                <p>Presiona el botón <strong>"Nuevo chat"</strong> para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
-            </main>
+                <div class="nav-icons">
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+        <button class="new-chat"><i class="fas fa-comments"></i> Nuevo Chat</button>
+        <div class="contacts">
+          <div class="contact">
+            <img
+              src="/assets/img/Juanita.jpg"
+              alt="Juanita"
+              class="contact-img"/>
+            <div class="contact-info">
+              <p class="name">Juanita</p>
+              <p class="message">At vero eos et accusa</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img
+              src="/assets/img/Alberto.jpg"
+              alt="Alberto"
+              class="contact-img"/>
+            <div class="contact-info">
+              <p class="name">Alberto</p>
+              <p class="message">blanditiis praesentium</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Ignacio.jpg"
+              alt="Ignacio"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Ignacio</p>
+              <p class="message">officiis debitis aut</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Cristian.jpg"
+              alt="Cristian"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Cristian</p>
+              <p class="message">Nam libero tempore</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Maria Jose.jpg"
+              alt="Maria Jose"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Maria Jose</p>
+              <p class="message">impedit quo minus id</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Gonzalo.jpg"
+              alt="Alberto"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Gonzalo</p>
+              <p class="message">At vero eos et accusa</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Juan Pablo.jpg"
+              alt="Alberto"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Gonzalo</p>
+              <p class="message">Anecessitatibus saepe</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <img
+              src="/assets/img/Magdalena.jpg"
+              alt="Alberto"
+              class="contact-img"
+            />
+            <div class="contact-info">
+              <p class="name">Magdalena</p>
+              <p class="message">ut et voluptates</p>
+            </div>
+          </div>
         </div>
-    
-    
-</body>
+    </div>
+
+      <main class="main-content">
+        <div class="intro">
+          <img src="/assets/icon/hand.png" alt="Networking" class="intro-img" />
+          <h1>Comienza el Networking</h1>
+          <p>
+            Presiona el botón <strong>“Nuevo chat”</strong> para comenzar a
+            crear nuevas redes de contacto para tu empresa o emprendimiento.
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
